@@ -1,0 +1,17 @@
+div {
+	width: 100%px;
+	margin: 50px;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: bold; 
+	margin: 50px 50px 50px;
+}
+.box1 { 
+	text-align: center;
+}
+
+.box1,
+.box2,
+.box3 {
+	border-bottom: 5px solid grey;
+}
