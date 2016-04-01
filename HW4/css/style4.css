@@ -1,0 +1,163 @@
+body {
+  background: url(../img4/background.gif) repeat-x;
+
+}
+.sheet {
+  overflow: hidden;
+  background-color: white;
+  width: 1000px;
+  height: 990px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px black;
+}
+.title {
+  float: left;
+}
+.contacts {
+  padding-top: 2px;
+  float: right;
+  color: #128aa7;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+span {
+  font-weight: bold;
+}
+.contacts li{
+  padding-top: 7px;
+  padding-right: 23px;
+}
+.country {
+  padding-top: 8px;
+  padding-right: 15px;
+  clear: right;
+  float: right;
+  margin-right: 10px;
+  margin-top: 24px;
+}
+.country li {
+  width: 54px;
+  display: inline-block;
+  text-align: center;
+}
+.country img {
+  display: block;
+  margin: 0 auto;
+}
+.country a {
+  color: #128aa7;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.country li:hover {
+  box-shadow: 0 0 15px grey;
+}
+
+.menu ul {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #323232;
+  box-shadow: 0 0 15px black;
+  height: 26px;
+  /*padding-left: 35px;*/
+}
+.menu > ul {
+  padding-left: 35px;
+}
+.menu li {
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.menu > ul > li {
+  padding: 5px 35px;
+}
+.menu ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-family: tahoma;
+  font-size: 14px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 27px;
+  left: 0px;
+  }
+.submenu li {
+  background-color: #323232;
+  padding: 5px 28px 5px 30px;
+}
+.menu li:hover .submenu {
+  display: block;
+}
+.footer p {
+  display: block;
+  height:24px;
+  text-align: center;
+  color: white;
+  font-family: tahoma;
+  font-size: 12px;
+  padding-top: 7px;
+}
+.fon1 {
+  width: 100%;
+  background: #edeef0;
+  float: left;
+  position: relative;
+  right:580px;
+  border-right: 1px solid grey;
+}
+.fon2 {
+  width: 100%;
+  background: #ffffff;
+  float: left;
+  position: relative;
+  right: 210px;
+  border-right: 1px solid grey;
+}
+.fon3 {
+  width: 100%;
+  background: #edeef0;
+  float: left;
+}
+.leftColumn {
+  width: 210px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 790px;
+}
+.centerColumn {
+  width: 580px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 790px;
+}
+.rightColumn {
+  width: 210px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 790px;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+.fon1 {
+  font-family: tahoma;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+  line-height: 1.7;
+}

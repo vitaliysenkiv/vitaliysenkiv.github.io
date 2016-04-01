@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.topbar {
+  width: 100%;
+  height: 35px;
+  background-color: #074b88;
+}
+.topbar ul {
+  float: right;
+}
+.topbar ul:first-child {
+  margin-right: 30px;
+}
+.topbar img {
+  margin-left: 20px;
+}
+.topbar li {
+  vertical-align: middle;
+  display: inline-block;
+}
+.topbar a, p {
+  display: block;
+  height: 30px;
+  text-decoration: none;
+  font-family: 'Helvetica Neue',tahoma,sans-serif;
+  color: #4eabda;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 11px;
+  padding-left: 11px;
+}
+.topbar span {
+  text-decoration: underline;
+}
+.topbar img, p {
+  float: right;
+}
+.topbar p {
+  color: white;
+}
+.topbar a:hover {
+  color: white;
+  background-color: #4eabda;
+}
+.content {
+  clear: both;
+  position: relative;
+  height: 1130px;
+  background: url(../img/background.png);
+  background-size: cover;
+  background-color: grey;
+}
+.content > p {
+  position: absolute;
+  background-color: rgba(0,0,0,0.7);
+  line-height: 52px;
+  letter-spacing: 1.5px;
+  width: 594px;
+  height: 59px;
+  left: 391px;
+  top: 234px;
+  color: white;
+  font-family: 'Helvetica Neue',tahoma,sans-serif;
+  font-size: 24px;
+}
+.form {
+  position: absolute;
+  width: 617px;
+  height: 570px;
+  top: 300px;
+  left: 391px;
+  background-color: rgba(0,0,0,0.7);
+  text-align: center;
+  padding-top: 40px;
+}
+.form img {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+}
+.form a > img:hover {
+  box-shadow: 0 0 5px white;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.form > img {
+  width: 340px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.field > input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 32px;
+  width: 290px;
+  background-color: black;
+  color: white;
+  font-family: 'Helvetica Neue',tahoma,sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.field > input:focus {
+    background-color: #1b5288;
+    box-shadow: 0 0 20px blue;
+}
+.flag {
+  margin-top: 20px;
+  margin-left: -9%;
+  color: white;
+  font-family: 'Helvetica Neue',tahoma,sans-serif;
+  font-size: 15px;
+}
+.submit input {
+  margin-top: 22px;
+  width: 170px;
+  height: 40px;
+  background-color: #074b88;
+  color: white;
+  font-family: 'Helvetica Neue',tahoma,sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.submit input:hover {
+  background-color: #4eabda;
+}
+.footer {
+  margin-top: 20px;
+}
+.footer span {
+  margin: 0 auto;
+  color: white;
+  font-family: 'Helvetica Neue',tahoma,sans-serif;
+  font-size: 12px;
+}
